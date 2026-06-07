@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520" role="img" aria-labelledby="title desc">
+  <title id="title">RazzSec Lab banner</title>
+  <desc id="desc">Dark CTF lab banner with terminal grid, packet traces, and neon green highlights.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06120f"/>
+      <stop offset="0.55" stop-color="#101820"/>
+      <stop offset="1" stop-color="#07110e"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#14f195" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#14f195" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#14f195" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#9fffd0" stroke-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="520" fill="url(#bg)"/>
+  <rect width="1600" height="520" fill="url(#grid)"/>
+  <path d="M0 390 C180 330 275 442 430 360 S730 230 910 305 1200 445 1600 260" fill="none" stroke="#14f195" stroke-opacity="0.35" stroke-width="3"/>
+  <path d="M0 420 C230 365 300 480 520 390 S760 300 980 355 1210 410 1600 320" fill="none" stroke="#62d6ff" stroke-opacity="0.22" stroke-width="2"/>
+  <g font-family="JetBrains Mono, Consolas, monospace" fill="#caffdf">
+    <text x="92" y="122" font-size="28" opacity="0.85">$ ./solve --target vuln --mode learn</text>
+    <text x="92" y="172" font-size="20" opacity="0.52">[+] reversing control flow</text>
+    <text x="92" y="206" font-size="20" opacity="0.52">[+] leaking libc base</text>
+    <text x="92" y="240" font-size="20" opacity="0.52">[+] documenting the path</text>
+    <text x="92" y="332" font-size="64" font-weight="700">RazzSec Lab</text>
+    <text x="96" y="380" font-size="24" fill="#62d6ff" opacity="0.9">CTF writeups / Linux / reversing / pwn / projects</text>
+  </g>
+  <g transform="translate(1120 96)" fill="none" stroke="#14f195" stroke-width="3" opacity="0.65">
+    <rect x="0" y="0" width="300" height="220" rx="16"/>
+    <path d="M30 58h240M30 112h240M30 166h240M75 28v164M150 28v164M225 28v164"/>
+    <circle cx="75" cy="58" r="8" fill="#14f195"/>
+    <circle cx="225" cy="112" r="8" fill="#62d6ff" stroke="#62d6ff"/>
+    <circle cx="150" cy="166" r="8" fill="#14f195"/>
+  </g>
+  <rect x="-100" y="68" width="1800" height="42" fill="url(#scan)" opacity="0.18" transform="rotate(-8 800 260)"/>
+</svg>

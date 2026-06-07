@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">RazzSec avatar</title>
+  <desc id="desc">Minimal cyber lab avatar with terminal prompt and shield.</desc>
+  <rect width="512" height="512" rx="112" fill="#07110e"/>
+  <circle cx="256" cy="256" r="192" fill="#101820" stroke="#14f195" stroke-width="10"/>
+  <path d="M256 92l118 48v92c0 86-48 139-118 188-70-49-118-102-118-188v-92l118-48z" fill="#0d1714" stroke="#62d6ff" stroke-width="8"/>
+  <path d="M176 230l52 42-52 42" fill="none" stroke="#14f195" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M258 318h88" stroke="#caffdf" stroke-width="22" stroke-linecap="round"/>
+  <text x="256" y="172" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace" font-size="44" font-weight="700" fill="#caffdf">RS</text>
+</svg>
