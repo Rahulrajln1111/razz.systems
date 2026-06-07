@@ -9,7 +9,7 @@ import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
 	title: "RazzSec Lab",
-	subtitle: "CTF writeups, exploit notes, and security projects",
+	subtitle: "Rahul Razz - binary exploitation, reverse engineering, and security research",
 	lang: "en", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
 	themeColor: {
 		hue: 165, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
@@ -66,8 +66,8 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/ctf-avatar.svg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "Razz",
-	bio: "CTF player documenting Linux, reversing, binary exploitation, web security, and tools.",
+	name: "Rahul Razz",
+	bio: "CSE student at IIT Bhilai, Team Nova CTF player, and binary exploitation / reverse engineering learner.",
 	links: [
 		{
 			name: "GitHub",
@@ -77,12 +77,22 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "LinkedIn",
 			icon: "fa6-brands:linkedin",
-			url: "https://linkedin.com/in/your-linkedin",
+			url: "https://www.linkedin.com/in/rahul-razz-524a0829b/",
+		},
+		{
+			name: "CTFLearn",
+			icon: "fa6-solid:flag",
+			url: "https://ctflearn.com/user/RahulRazz",
+		},
+		{
+			name: "Discord",
+			icon: "fa6-brands:discord",
+			url: "https://discord.com/users/1271067533629325476",
 		},
 		{
 			name: "Email",
 			icon: "fa6-regular:envelope",
-			url: "mailto:you@example.com",
+			url: "mailto:rahulrajln1111@gmail.com",
 		},
 	],
 };

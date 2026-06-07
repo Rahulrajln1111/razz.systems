@@ -1,8 +1,6 @@
 # RazzSec Lab
 
-Personal CTF writeups, Linux notes, reversing notes, binary exploitation notes, web security notes, and security projects.
-
-This site is based on [Fuwari](https://github.com/saicaca/fuwari), an Astro static blog template.
+Personal CTF writeups, Linux notes, reverse engineering notes, binary exploitation notes, web security notes, security projects, and experience archive for Rahul Razz.
 
 ## Local Setup
 
@@ -48,15 +46,13 @@ Use tags like:
 - `tryhackme`
 - `picoctf`
 
-## Customize Your Identity
+## Site Identity
 
 Edit these files:
 
 - `src/config.ts` for site title, profile, navbar, social links, and banner
 - `src/content/spec/about.md` for the About page
 - `astro.config.mjs` for your final deployment URL
-
-Replace remaining placeholder links like `your-linkedin` and `you@example.com`.
 
 ## Custom Domain
 
